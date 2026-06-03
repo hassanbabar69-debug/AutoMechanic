@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+
+.montserrat-heading {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.raleway-heading {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  background: cyan;
+  box-shadow:  0 0 15px #22d3ee;
+  border-radius: 50%;
+  cursor: pointer;
+}
